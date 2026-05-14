@@ -1,0 +1,48 @@
+{
+  "federated": {
+    "num_clients": 6,
+    "num_rounds": 20,
+    "final_test_acc": 0.43166666666666664,
+    "final_test_loss": 1.608617353439331,
+    "best_test_acc": 0.435,
+    "best_round": 15,
+    "convergence_80": null,
+    "convergence_90": null,
+    "mean_delay_s": 1.156025575788218,
+    "model_size_kb": 82.0390625,
+    "total_comm_kb": 19689.375
+  },
+  "centralized": {
+    "final_test_acc": 0.45,
+    "best_test_acc": 0.46,
+    "convergence_80": null,
+    "convergence_90": null
+  },
+  "comparison": {
+    "acc_gap": 0.018333333333333368,
+    "fed_pct_of_centralized": 0.9592592592592591
+  },
+  "final_eval": {
+    "loss": 1.608617353439331,
+    "accuracy": 0.43166666666666664,
+    "top1_acc": 0.43166666666666664,
+    "macro_f1": 0.4228026194033524,
+    "weighted_f1": 0.42318924561432697,
+    "precision_macro": 0.47128845007904563,
+    "recall_macro": 0.43338822398379157
+  },
+  "fairness": {
+    "mean_acc": 0.7675531848631695,
+    "std_acc": 0.022222965778704314,
+    "var_acc": 0.000493860208001463,
+    "min_acc": 0.7262773722627737,
+    "max_acc": 0.8,
+    "gap": 0.07372262773722638,
+    "jains_index": 0.9991624260286311
+  },
+  "comm_cost_kb": {
+    "total_kb": 19689.375,
+    "downlink_kb": 9844.6875,
+    "uplink_kb": 9844.6875
+  }
+}
